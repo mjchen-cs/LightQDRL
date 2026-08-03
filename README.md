@@ -58,6 +58,7 @@ The core framework consists of three main stages:
 
 ---
 
+
 ## 🛠 Prerequisites & Installation
 
 ### Requirements
@@ -71,11 +72,33 @@ The core framework consists of three main stages:
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/your-username/LightQDRL.git](https://github.com/your-username/LightQDRL.git)
+   git clone [https://github.com/mjchen-cs/LightQDRL.git](https://github.com/mjchen-cs/LightQDRL.git)
    cd LightQDRL
 ### Install dependencies: 
 ```bash
    pip install torch pennylane scipy numpy pandas matplotlib
+   
+   
+   
+## 📁 Dataset Preparation
+
+To evaluate the algorithm on real-world scenarios, please download the experimental video task dataset from Figshare and place it in the project directory:
+
+1. **Download Dataset**: Download the dataset (2.95 GB) from our Figshare repository: 
+   👉 **[https://doi.org/10.6084/m9.figshare.33143576](https://doi.org/10.6084/m9.figshare.33143576)**
+
+2. **Setup Folder**: Extract/copy the downloaded video files (`.mp4`) into the `./task/` directory of this project.
+
+```text
+LightQDRL/
+├── task/                   <-- Place the downloaded .mp4 video files here
+│   ├── video_task_1.mp4
+│   ├── video_task_2.mp4
+│   └── ...
+├── data/
+├── main.py
+└── README.md 
+   
    
 
 ## 🚀 Running the Model
