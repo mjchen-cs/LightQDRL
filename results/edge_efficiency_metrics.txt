@@ -1,0 +1,11 @@
+====================================================
+       LightQDRL Edge Efficiency Benchmark
+====================================================
+Inference Latency (Avg) : 8.3941 ms
+Inference Latency (P95) : 8.4946 ms
+FLOPs per Inference     : 0.0023 MFLOPs
+Static Model Memory Size: 0.0095 MB
+Runtime RAM Occupancy   : 671.41 MB
+Fine-Tuning Time/Step   : 22.63 ms
+Estimated Energy/Step   : 0.1131 Joules
+====================================================

@@ -1,0 +1,11 @@
+====================================================
+      Edge Efficiency Benchmark Results
+====================================================
+Inference Latency (Avg) : 8.6326 ms
+Inference Latency (P95) : 8.7145 ms
+FLOPs per Inference     : 0.0340 MFLOPs
+Static Model Memory Size: 0.1328 MB
+Runtime RAM Occupancy   : 685.32 MB
+Fine-Tuning Time/Step   : 23.85 ms
+Estimated Energy/Step   : 0.1192 Joules
+====================================================

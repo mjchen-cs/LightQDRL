@@ -1,0 +1,2 @@
+System Total Throughput: 427.8795 Mbps
+Per-User Average Throughput: 42.7879 Mbps

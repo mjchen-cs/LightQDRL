@@ -1,0 +1,11 @@
+====================================================
+    Traditional Q-Learning Edge Efficiency Benchmark
+====================================================
+Inference Latency (Avg) : 41.0810 ms
+Inference Latency (P95) : 167.3346 ms
+FLOPs per Inference     : 1073.741974 MFLOPs (Tabular Ops)
+Static Q-Table Size     : 8192.0005 MB
+Runtime RAM Occupancy   : 8766.46 MB
+Fine-Tuning Time/Step   : 229.7795 ms
+Estimated Energy/Step   : 1.148897 Joules
+====================================================
