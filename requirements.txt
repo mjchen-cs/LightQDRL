@@ -1,0 +1,14 @@
+# Versions used for the paper (workstation: Python 3.10, Windows 11). Newer versions are expected to work.
+torch>=2.2               # paper: 2.11 (workstation), 2.14.1 CPU build (Jetson)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+pennylane>=0.42          # paper: 0.42.3; used only to validate the built-in state-vector simulator
+qiskit>=2.0,<3           # paper: 2.5.2; transpilation statistics and the WK_C180 compilation estimate
+networkx>=3.0            # origin_transpile_estimate.py
+gymnasium>=0.29          # CartPole-v1
+psutil>=5.9
+# optional, hardware experiments only:
+# pyqpanda3              # Origin Quantum cloud
+# pyquafu                # Quafu cloud

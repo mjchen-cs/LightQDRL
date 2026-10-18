@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "LightQDRL: lightweight hybrid quantum-classical decision policies for edge computing"
+authors:
+  - family-names: Chen
+    given-names: Miaojiang
+  - family-names: Xiao
+    given-names: Wenjing
+  - family-names: Chen
+    given-names: Haiqiang
+  - family-names: Zhang
+    given-names: Zhenrong
+  - family-names: Luo
+    given-names: Guihua
+  - family-names: Vasilakos
+    given-names: Athanasios
+  - family-names: Farouk
+    given-names: Ahmed
+license: MIT
+repository-code: "https://github.com/mjchen-cs/LightQDRL"
+version: "1.0.0"
+date-released: "2026-10-19"
+preferred-citation:
+  type: article
+  title: "Lightweight hybrid quantum-classical decision policies for resource-constrained edge computing"
+  authors:
+    - family-names: Chen
+      given-names: Miaojiang
+    - family-names: Xiao
+      given-names: Wenjing
+    - family-names: Chen
+      given-names: Haiqiang
+    - family-names: Zhang
+      given-names: Zhenrong
+    - family-names: Luo
+      given-names: Guihua
+    - family-names: Vasilakos
+      given-names: Athanasios
+    - family-names: Farouk
+      given-names: Ahmed
+  notes: "Manuscript under review."
+references:
+  - type: dataset
+    title: "Data for: Lightweight hybrid quantum-classical decision policies for resource-constrained edge computing"
+    doi: "10.5281/zenodo.23454656"
+    authors:
+      - name: "Chen, Miaojiang et al."

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+results_*/
+figures/
+edge_results/
+zenodo_upload/
+*.zip
+task data/
+node_modules/
