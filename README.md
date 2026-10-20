@@ -2,8 +2,8 @@
 
 Code for the paper
 
-> **Lightweight hybrid quantum–classical decision policies for resource-constrained edge computing**
-> Miaojiang Chen, Wenjing Xiao, Haiqiang Chen, Zhenrong Zhang, Guihua Luo, Athanasios Vasilakos, Ahmed Farouk
+> **Lightweight hybrid quantum–classical reinforcement-learning policies for resource-constrained edge computing**
+> Miaojiang Chen, Wenjing Xiao, Haiqiang Chen, Jiarong Liang, Anfeng Liu, Zhenrong Zhang, Guihua Luo, Athanasios V. Vasilakos, Saif Al-Kuwari, H. Herbert Song, Ahmed Farouk
 
 LightQDRL is a lightweight-model framework for hybrid quantum–classical reinforcement-learning policies. It combines
 three modules that act on a shared hybrid backbone and therefore plug into any learning rule:
@@ -18,7 +18,8 @@ and evaluated on a queue-aware wireless-powered mobile-edge-computing network dr
 and on the Origin Quantum WK_C180 superconducting processor.
 
 **Data:** all results underlying the paper (per-seed results, checkpoints, adaptation, robustness, on-device and
-hardware records) are available at https://doi.org/10.5281/zenodo.23454656.
+hardware records) are available at https://doi.org/10.6084/m9.figshare.34692156. A representative subset of the
+industrial video clips is available at https://doi.org/10.6084/m9.figshare.33143576.
 
 ## Repository layout
 
@@ -130,6 +131,25 @@ python origin_transpile_estimate.py --backend WK_C180 --algo Q-PPO --seed 0 --hw
 ## Citation
 
 If you use this code, please cite the paper (see `CITATION.cff`).
+
+```bibtex
+@article{chen2026lightqdrl,
+  title  = {Lightweight hybrid quantum--classical reinforcement-learning policies for resource-constrained edge computing},
+  author = {Chen, Miaojiang and
+           Xiao, Wenjing and
+           Chen, Haiqiang and
+           Liang, Jiarong and
+           Liu, Anfeng and
+           Zhang, Zhenrong and
+           Luo, Guihua and
+           Vasilakos, Athanasios V. and
+           Al-Kuwari, Saif and
+           Song, H. Herbert and
+           Farouk, Ahmed},
+  note   = {Manuscript under review},
+  year   = {2026}
+}
+```
 
 ## License
 

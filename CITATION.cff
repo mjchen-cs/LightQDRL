@@ -1,47 +1,75 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
-title: "LightQDRL: lightweight hybrid quantum-classical decision policies for edge computing"
+title: "LightQDRL: lightweight hybrid quantum-classical reinforcement-learning policies for edge computing"
 authors:
-  - family-names: Chen
-    given-names: Miaojiang
-  - family-names: Xiao
-    given-names: Wenjing
-  - family-names: Chen
-    given-names: Haiqiang
-  - family-names: Zhang
-    given-names: Zhenrong
-  - family-names: Luo
-    given-names: Guihua
-  - family-names: Vasilakos
-    given-names: Athanasios
-  - family-names: Farouk
-    given-names: Ahmed
+  - family-names: "Chen"
+    given-names: "Miaojiang"
+  - family-names: "Xiao"
+    given-names: "Wenjing"
+  - family-names: "Chen"
+    given-names: "Haiqiang"
+  - family-names: "Liang"
+    given-names: "Jiarong"
+  - family-names: "Liu"
+    given-names: "Anfeng"
+  - family-names: "Zhang"
+    given-names: "Zhenrong"
+  - family-names: "Luo"
+    given-names: "Guihua"
+  - family-names: "Vasilakos"
+    given-names: "Athanasios V."
+  - family-names: "Al-Kuwari"
+    given-names: "Saif"
+  - family-names: "Song"
+    given-names: "H. Herbert"
+  - family-names: "Farouk"
+    given-names: "Ahmed"
 license: MIT
 repository-code: "https://github.com/mjchen-cs/LightQDRL"
 version: "1.0.0"
-date-released: "2026-10-19"
+date-released: "2026-10-20"
+keywords:
+  - quantum reinforcement learning
+  - lightweight models
+  - edge computing
+  - model compression
 preferred-citation:
   type: article
-  title: "Lightweight hybrid quantum-classical decision policies for resource-constrained edge computing"
+  title: "Lightweight hybrid quantum-classical reinforcement-learning policies for resource-constrained edge computing"
   authors:
-    - family-names: Chen
-      given-names: Miaojiang
-    - family-names: Xiao
-      given-names: Wenjing
-    - family-names: Chen
-      given-names: Haiqiang
-    - family-names: Zhang
-      given-names: Zhenrong
-    - family-names: Luo
-      given-names: Guihua
-    - family-names: Vasilakos
-      given-names: Athanasios
-    - family-names: Farouk
-      given-names: Ahmed
+    - family-names: "Chen"
+      given-names: "Miaojiang"
+    - family-names: "Xiao"
+      given-names: "Wenjing"
+    - family-names: "Chen"
+      given-names: "Haiqiang"
+    - family-names: "Liang"
+      given-names: "Jiarong"
+    - family-names: "Liu"
+      given-names: "Anfeng"
+    - family-names: "Zhang"
+      given-names: "Zhenrong"
+    - family-names: "Luo"
+      given-names: "Guihua"
+    - family-names: "Vasilakos"
+      given-names: "Athanasios V."
+    - family-names: "Al-Kuwari"
+      given-names: "Saif"
+    - family-names: "Song"
+      given-names: "H. Herbert"
+    - family-names: "Farouk"
+      given-names: "Ahmed"
   notes: "Manuscript under review."
 references:
   - type: dataset
-    title: "Data for: Lightweight hybrid quantum-classical decision policies for resource-constrained edge computing"
-    doi: "10.5281/zenodo.23454656"
+    title: "Data for: Lightweight hybrid quantum-classical reinforcement-learning policies for resource-constrained edge computing"
+    doi: "10.6084/m9.figshare.34692156"
+    url: "https://doi.org/10.6084/m9.figshare.34692156"
+    authors:
+      - name: "Chen, Miaojiang et al."
+  - type: dataset
+    title: "Industrial video clips (representative subset) used to generate WP-MEC task arrivals"
+    doi: "10.6084/m9.figshare.33143576"
+    url: "https://doi.org/10.6084/m9.figshare.33143576"
     authors:
       - name: "Chen, Miaojiang et al."
